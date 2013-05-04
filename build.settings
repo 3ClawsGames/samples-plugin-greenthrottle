@@ -24,6 +24,15 @@ settings =
 	           "Icon-72.png", 
 	        },
 		},
-	}
+	},
+	plugins =
+	{
+		-- key is the name passed to Lua's 'require()'
+		["plugin.greenthrottle"] =
+		{
+			-- required
+			publisherId = "com.greenthrottle",
+		},
+	},		
 }
 	
